@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Scene">
+      <UniqueIdentifier>{11081e00-6790-4105-94b1-c76b5b475800}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Scene">
+      <UniqueIdentifier>{1ddda29c-3d15-4bf1-a0db-37926754d367}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine">
+      <UniqueIdentifier>{99f2af59-95f3-4e33-b26f-bf9c13e6fb9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine">
+      <UniqueIdentifier>{e2095482-393c-4f8c-b533-6f93cbe59bbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Phys">
+      <UniqueIdentifier>{3777c1f0-1793-4bd3-87fd-0b6be2ccb07f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Phys">
+      <UniqueIdentifier>{b70301ad-0e84-4394-8eb5-b882c27e330f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Level">
+      <UniqueIdentifier>{46bb31b4-d9bb-410f-b489-8344c42085cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Level">
+      <UniqueIdentifier>{91100d24-5030-478b-985c-f81cdb69023c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utility">
+      <UniqueIdentifier>{47b12a46-7732-451a-8bb2-8f9b58d638b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utility">
+      <UniqueIdentifier>{ea629c65-f57b-4e6c-b9bf-c3693bfd6326}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Level\Tiles">
+      <UniqueIdentifier>{62afe3b3-ea2c-499b-a104-b5437407cba7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Level\Tiles">
+      <UniqueIdentifier>{1abde67c-1dde-497f-a6f8-82fa655bc373}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ResourceMangaer">
+      <UniqueIdentifier>{125362ed-0bee-46b2-bd7b-5498b92fba55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ResourceManager">
+      <UniqueIdentifier>{97a7e026-31de-4ad8-a420-c670e18521ff}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicBody.cpp">
+      <Filter>Source Files\Engine\Phys</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysBody.cpp">
+      <Filter>Source Files\Engine\Phys</Filter>
+    </ClCompile>
+    <ClCompile Include="Phys.cpp">
+      <Filter>Source Files\Engine\Phys</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionSystem.cpp">
+      <Filter>Source Files\Engine\Phys</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>Source Files\Engine\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>Source Files\Engine\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimatedSprite.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>Source Files\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Resources.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Scene.h">
+      <Filter>Header Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Header Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicBody.h">
+      <Filter>Header Files\Engine\Phys</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysBody.h">
+      <Filter>Header Files\Engine\Phys</Filter>
+    </ClInclude>
+    <ClInclude Include="Phys.h">
+      <Filter>Header Files\Engine\Phys</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionSystem.h">
+      <Filter>Header Files\Engine\Phys</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>Header Files\Engine\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>Header Files\Engine\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimatedSprite.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceTemplate.h">
+      <Filter>Header Files\ResourceMangaer</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Header Files\ResourceMangaer</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
